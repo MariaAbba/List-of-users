@@ -28,7 +28,7 @@ export const User = ({
     <img
       onClick={() => onClickInvite(id)}
       className="action"
-      src={`/assets/${isInvited ? 'plus' : 'minus'}.svg`}
+      src={`/assets/${isInvited ? 'minus' : 'plus'}.svg`}
       alt="Action"
     />
   </li>
